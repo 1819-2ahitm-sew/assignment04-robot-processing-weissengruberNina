@@ -3,7 +3,9 @@ package at.htl.robot.gui;
 import at.htl.robot.model.Robot;
 import processing.core.PApplet;
 
-
+/*
+* Nina Weissengruber
+* */
 public class Main extends PApplet {
 
     // Hier die Member-Attribute eintragen
