@@ -81,15 +81,15 @@ public class Main extends PApplet {
      * In dieser Methode reagieren Sie auf die Tasten
      */
     public void keyPressed() {
+        System.out.println("Susi - the littkle Robot");
+        System.out.println("<F> ... 1 Schritt vorwärts, <L> ... Drehe nach links");
+
         println("pressed " + key + " " + keyCode);
 
         if (key == 'f' || key == 'F') {
-            if (0 < robot.getY() && robot.getY() < 10 && 0 < robot.getX() &&robot.getX() <10) {
-                deleteAll();
-                robot.stepForward();
-            }
+
         } else if (key == 'l' || key == 'L') {
-            robot.rotateLeft();
+
         }
 
     }
